@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mp_tourism</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    	.a{
+		background-color:#0000009c;
+	  }
+  .navbar-nav .nav-item .nav-link
+	 
+	 {
+	 padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+	 }
+	 .mob-logo{
+    	display: none;
+    }
+	 @media(max-width: 700px)
+	 {
+	 	.mob-logo{
+	 		display: block;
+
+	 	}
+	 	.web-logo{
+	 		display: none;
+
+	 	}
+	 	.a{
+		background-color:black;
+	       }
+	    .b{
+	    	height: 270px;
+	    }
+ }
+ </style>
+</head>
+<body>
+ <nav class="navbar navbar-expand-md navbar-dark a fixed-top">
+		<div class="container">
+			<a href="" class="navbar-brand">
+			  <img class="web-logo" src="img/logo.png" width="120px" >
+			  <img class="mob-logo" src="img/3.jpg" width="70px">
+			</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+
+            <span class="navbar-toggler-icon"></span>
+   
+            </button>
+        </div>
+        <!----end container----->
+         <div class="collapse navbar-collapse" id="a">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a href="index.html" class="nav-link">HOME</a>
+			</li>
+			<li class="nav-item">
+				<a href="temple.html" class="nav-link">TEMPLES</a>
+			</li>
+			<li class="nav-item">
+				<a href="waterfall.html" class="nav-link">WATERFALLS</a>
+			</li>
+			<li class="nav-item">
+				<a href="Lakes.html" class="nav-link">LAKES</a>
+			</li>
+			<li class="nav-item">
+				<a href="fort.html" class="nav-link">FORTS</a>
+			</li>
+			<li class="nav-item">
+				<a href="river.html" class="nav-link">RIVERS</a>
+			</li>
+			<li class="nav-item"> 
+				<a href="contact_us.html" class="nav-link">CONTACT</a>
+			</li>		
+
+		</ul>
+		</div>
+		<!----end collapse---->	
+	 
+	</nav>
+	<img src="img/kha1.jpg" height="450px;" width="100%" class="b">
+<br><br><div class="container">
+	<h3 style="font-family: 'Sora', sans-serif; color:#290404;">Panna National Park</h3>
+	<div class="carousel slide" data-ride="carousel" id="myslide">
+
+  <div class="carousel-inner">
+
+	     <div class="carousel-item active" data-interval="3000">
+	     	<img  src="img/pa1.jpg" class="b" height="350px;" width="100%">
+         </div>       
+         <div class="carousel-item" data-interval="2000">
+         	<img src="img/pa2.jpg" class="b" height="350px;" width="100%">
+         </div>
+        <div class="carousel-item" data-interval="2000">
+            <img  src="img/pa3.jpg" class="b" height="350px;" width="100%">   
+        </div>
+        <div class="carousel-item" data-interval="2000">
+         <img  src="img/pa4.jpg" class="b" height="350px;" width="100%">      
+        </div>
+        <div class="carousel-item" data-interval="2000">
+           <img  src="img/pa5.jpg" class="b" height="350px;" width="100%">
+         </div>
+
+
+	</div><!-- end	carousel-inner-->
+    <ul class="carousel-indicators">
+       <li data-target="#myslide" data-slide-to="0" class="active"></li>
+       <li data-target="#myslide" data-slide-to="1" class=""></li>
+       <li data-target="#myslide" data-slide-to="2" class=""></li>
+       <li data-target="#myslide" data-slide-to="3" class=""></li>
+       <li data-target="#myslide" data-slide-to="4" class=""></li>
+     </ul>
+      <a href="#myslide" data-slide="prev" class="carousel-control-prev">
+       <span class="carousel-control-prev-icon"></span>
+    </a>
+     <a href="#myslide" data-slide="next" class="carousel-control-next">
+       <span class="carousel-control-next-icon"></span>
+  </a>
+</div><!--	carousel slide end-->
+<p style="font-weight:bold; text-align: justify;">Just 40 minutes drive from the temple town of Khajuraho, you will be greeted by a beautiful wildlife destination called, Panna National Park. It is a must to visit this tiger reserve, in fact, you can consider this as an opportunity to make the most of your holiday in Khajuraho. While here the wild attraction you can see are leopard, wolf, hyena and many other species also the beautiful river Ken adds a charming effect to the entire park where you can go for a boat safari. However, there are no jeep safaris provided but there are possibilities for you to hire your own jeep for a wildlife safari in Panna National Park.<br><br>Panna National Park is a national park located in Panna and Chhatarpur districts of Madhya Pradesh in India. It has an area of 542.67 km2 (209.53 sq mi). It was declared in 1993 as the twenty second Tiger reserve of India and the fifth in Madhya Pradesh, Panna was given the Award of Excellence in 2007 as the best maintained national park of India by the Ministry of Tourism of India. It is notable that by 2009, the entire tiger population had been eliminated by poaching with the collusion of forest department officials.It was designated as Biosphere Reserve on 25 August 2011.Sal, crocodile bark, Arjun, jamun, etc are trees present here.</p>
+</div>
+<!----end container---->
+<br><br><div class="container">
+	<h3 style="font-family: 'Sora', sans-serif; color:#290404;">Ken Gharial Sanctuary</h3>
+	<img src="img/kha3.jpg" height="350px;" width="100%" class="b">
+	<p style="font-weight:bold; text-align: justify;">The Ken Gharial Sanctuary is a wildlife sanctuary near Panna National Park and the Khajuraho Group of Monuments in Panna and Chhatarpur districts of Madhya Pradesh in India. The Ken Gharial Sanctuary is part of the Gharial Conservation association where captive bred gharials are released to help regenerate the gharial ecosystem.It is located at the confluence of the Ken River and Khudar River and spread over an area of 45,201 sq.kms. It is located northeast of the Khajuraho temples and north of Panna National Park. It is usually visited along with the Raneh Falls site nearby. It is closed for visitors in monsoon season.<br><br> A haven for enthusiastic nature explorers, here is another interesting wildlife place around 5 km north of Raneh Falls, Ken Gharial Sanctuary. This nature reserve in Khajuraho is another tourist hotspot that offers scenic sights of critically-endangered animal species. As a matter of fact, this nature destination is adjoining the Panna National Park, and the landscapes are similar. But making the waterfall and this nature reserve close by, most of the tour guides prefer to take this route, i.e. if you want to visit these two attractions in one day. Here, like Panna, you can spot animals like tigers, spotted deer, wild boars as well as a variety of birds, and if you are in luck, you may get to see Shaheen Falcon.</p>
+</div>
+<!----end container---->
+<br><br><div class="container">
+	<h3 style="font-family: 'Sora', sans-serif; color:#290404;">Beni Sagar Dam</h3>
+	<img src="img/kha4.jpg" height="350px;" width="100%" class="b">
+	<p style="font-weight:bold; text-align: justify;">Within a kilometre from the Khajuraho railway station lies another nature hotspot, the Beni Sagar Dam that offers riveting and refreshing public picnic spot for families. Spreading around 7.7 sq. km, with only lush greens and soothing ambience, this place shouts peace and tranquility. It is perhaps an ideal place to come and soothe your tired and restless soul from the chaotic city life. Beni Sagar Dam also provides a few activities that include hiking and rowing, you can go for a nature walk to nearby offbeat trails and later row your boat (or get rowed) on a boating activity around the dam.<br><br>Standing on the river Khuddar, Beni Sagar Dam is one of the most frequented tourist places in Khajuraho and stretches across nearly 8 square kilometers. The lovely lush greenery that shelters the dam lures nature lovers from all over the country. Besides the tranquil surroundings that the dam offers, there are plenty of stimulating water sports to set your heart racing. As a bonus, the sunrise and sunset from up there are the most breathtaking phenomena.</p>
+	</div>
+<!----end container---->
+<br><br><div class="container">
+	<h3 style="font-family: 'Sora', sans-serif; color:#290404;">Archaeological Museum Khajuraho</h3>
+	<img src="img/kha5.jpg" height="350px;" width="100%" class="b">
+	<p style="font-weight:bold; text-align: justify;">Originally built by W.A. Jardine in the year 1910 and newly constructed in 2016, this Archaeological Museum in Khajuraho is located in the north of Western Group of Temples. This place offers attractions of tourist interest that tells stories of the past, a place perfect for tourists, historians to be specific. Inside, you can witness a rare collection of sculptures, architectural ruins, and various galleries. Also, you can find a few information panels that narrate Chandela history. The main purpose for the tourism department to maintain such museum is to preserve antiques that are exquisite and priceless. Make sure to make a pitstop here while traversing the historical temple town.</p>
+	</div>
+<!----end container---->
+<br><br><div class="container">
+	<h3 style="font-family: 'Sora', sans-serif; color:#290404;"> Jain Museum</h3>
+	<img src="img/kha6.jpg" height="350px;" width="100%" class="b">
+	<p style="font-weight:bold; text-align: justify;">Considering Sahu Shanti Prasad Jain Kala Sangrahalaya to be a rather too complicated name for a museum, you can simply call it as a Jain Museum. Because all things you will find inside are associated with Jain culture. Ever since 1987, as an establishing year, this museum gathers many tourists, historians, and children for educational tours. Located amid the Eastern Temple Group, this museum displays a circular gallery that shows Jain sculptures and Yakshis sculptures. There are also statues of Tirthankaras (spiritual leaders) and Makara Toranas situated right at the museum entrance.</p>
+</div>
+<!---end container----->
+<br><br><div class="container">
+	<h3 style="font-family: 'Sora', sans-serif; color:#290404;"> Attend the Sound and Light Show in Khajuraho</h3>
+	<img src="img/kha7.jpg" height="350px;" width="100%" class="b">
+	<p style="font-weight:bold; text-align: justify;">As the sunsets deeming all the artsy work in different temple complexes, you can watch an exciting show. If you plan a stay in Khajuraho, make sure to attend the sound and light show that takes place near the Western Group of Temples. The Indian classical music and the technicolour floodlights are for sure going to sweep you off your feet. Don’t believe us? Well, find it for yourself. The show narrates the story of the past through their folk dances and musical acts and to be a part of the show as a spectator, you need to give an entry fee of Rupees 120 (Indian) and 400 (Foreigners). Also, make sure to mark the timings (cross-check as it may differ)</p>
+	<h6><b>English:</b> 18:30 – 19:25
+         <br>
+        <b>Hindi:</b> 19:40 – 20:35</h6>
+</div>
+<!----end container----->
+<br><br>
+<div class="container">
+	<h2 style="font-family: 'Sora', sans-serif; color:#290404;">Temples in Khajuraho</h2>
+	<ul style="font-weight: bold;">
+		<li> Kandariya Mahadev Temple</li>
+		<li> Lakshmana Temple</li>
+		<li>Javari Temple</li>
+		<li>Brahma Temple</li>
+		<li>Adinath Temple</li>
+		<li>Parsvanath Temple</li>
+		<li>Chaturbhui Temple</li>
+		<li> Chausath Yogini Temple</li>
+		<li>Matangesvara Temple</li>
+	</ul>
+</div>
+<!----end container----->
+	<!-----footer start------------>
+<br><br><br><div class="bg-dark" style="background-color: #141415!important;">
+		<div class="container" style="color: white;">
+			<br><br>
+			<div class="row">
+				<div class="col-md-3">
+					<img src="img/logo.png" style="height: 130px; width: 230px;"><br><br>
+				</div>
+				<div class="col-md-3">
+					<h4 style="font-family: serif;">MADHYA PRADESH TOURISM</h4>
+					<h6><a href="temple.html" style="color: #ff9607;  text-decoration: none;">TEMPLES</a></h6>
+					<h6><a href="fort.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">FORTS</a></h6>
+					<h6><a href="Lakes.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">LAKES</a></h6>
+					<h6><a href="waterfall.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">WATERFALL</a></h6>
+					<h6><a href="river.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">RIVERS</a></h6>
+
+				</div>
+				<div class="col-md-3">
+					<a style="text-decoration: none;" href="contact_us.html"><h4 style="font-family: serif; color: white;">CONTACT WITH US</h4></a>
+					<b style="color: #ff9607;">Address:</b><span style="color: white;">&nbsp;&nbsp; 7/16 barick quater Thatipur,Gwalior</span>
+					<b style="color: #ff9607;"><br>
+					Contact no.:</b><span style="color: white;">&nbsp;&nbsp;9752148265</span>
+
+					<b style="color: #ff9607;">Website:</b><span style="color: white;">&nbsp;&nbsp;www.mptourism.com</span><br>
+
+
+
+					<br><a href="https://www.facebook.com/MPTourism/">
+					<i class="fa fa-facebook-official" style="font-size: 40px; color:#12a2e6;"></i></a>&nbsp;
+					<a href="https://www.instagram.com/mptourism/">
+					<i class="fa fa-instagram" aria-hidden="true" style="font-size: 40px; color:#d44374;"></i></a>&nbsp;
+					<a href="https://mobile.twitter.com/mptourism">
+					<i class="fa fa-twitter" aria-hidden="true" style="font-size: 40px; color:#10caf5;"></i></a>&nbsp;
+					<a href="https://youtube.com/user/mptourism">
+					<i class="fa fa-youtube-play" aria-hidden="true" style="font-size: 40px; color:red;"></i></a>&nbsp;
+					
+					
+				</div>
+				<div class="col-md-3">
+				<br><br><br><a href="feeback.html" style="text-decoration: none;"><h5 style="color:#ff9607; ">Feedback</h5></a>
+				<p class="text-light">Download the app on:</p>
+				<img src="img/38.jpg">&nbsp;&nbsp;&nbsp;
+				<img src="img/39.jpg">
+			</div>
+		</div>
+		<p>All rights reserved@2020</p>
+	</div>
+
+</body>
+</html>

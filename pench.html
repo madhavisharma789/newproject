@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mp_tourism</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    	.a{
+		background-color:#0000009c;
+	  }
+  .navbar-nav .nav-item .nav-link
+	 
+	 {
+	 padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+	 }
+	 .mob-logo{
+    	display: none;
+    }
+	 @media(max-width: 700px)
+	 {
+	 	.mob-logo{
+	 		display: block;
+
+	 	}
+	 	.web-logo{
+	 		display: none;
+
+	 	}
+	 	.a{
+		background-color:black;
+	       }
+	    .b{
+	    	height: 270px;
+	    }
+ }
+
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark a fixed-top">
+		<div class="container">
+			<a href="" class="navbar-brand">
+			  <img class="web-logo" src="img/logo.png" width="120px" >
+			  <img class="mob-logo" src="img/3.jpg" width="70px">
+			</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+
+            <span class="navbar-toggler-icon"></span>
+   
+            </button>
+        </div>
+        <!----end container----->
+         <div class="collapse navbar-collapse" id="a">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a href="index.html" class="nav-link">HOME</a>
+			</li>
+			<li class="nav-item">
+				<a href="temple.html" class="nav-link">TEMPLES</a>
+			</li>
+			<li class="nav-item">
+				<a href="waterfall.html" class="nav-link">WATERFALLS</a>
+			</li>
+			<li class="nav-item">
+				<a href="Lakes.html" class="nav-link">LAKES</a>
+			</li>
+			<li class="nav-item">
+				<a href="fort.html" class="nav-link">FORTS</a>
+			</li>
+			<li class="nav-item">
+				<a href="river.html" class="nav-link">RIVERS</a>
+			</li>
+			<li class="nav-item"> 
+				<a href="contact_us.html" class="nav-link">CONTACT</a>
+			</li>		
+
+		</ul>
+		</div>
+		<!----end collapse---->	
+	 
+	</nav>
+	<img src="img/pen.jpg" height="450px;" width="100%" class="b">
+	<br><br><div class="container">
+	<h3 style="font-family: 'Noto Serif', serif;">Panna Tiger Reserve</h3>
+	<div class="carousel slide" data-ride="carousel" id="myslide">
+
+  <div class="carousel-inner">
+
+	     <div class="carousel-item active" data-interval="3000">
+	     	<img  src="img/pen1.jpg" class="b" height="465px;" width="100%">	
+	     	</div>        
+           
+         <div class="carousel-item" data-interval="2000">
+         	<img src="img/pen2.jpg" class="b" height="465px;" width="100%">
+
+         </div>
+        <div class="carousel-item" data-interval="2000">
+            <img  src="img/pen3.jpg" class="b" height="465px;" width="100%">
+        </div>
+        <div class="carousel-item" data-interval="2000"> 
+         <img  src="img/pen4.jpg" class="b" height="465px;" width="100%"> 
+        </div>
+        <div class="carousel-item" data-interval="2000">
+           <img  src="img/pen5.jpg" class="b" height="465px;" width="100%">
+         </div>
+
+
+	</div><!-- end	carousel-inner-->
+    <ul class="carousel-indicators">
+       <li data-target="#myslide" data-slide-to="0" class="active"></li>
+       <li data-target="#myslide" data-slide-to="1" class=""></li>
+       <li data-target="#myslide" data-slide-to="2" class=""></li>
+       <li data-target="#myslide" data-slide-to="3" class=""></li>
+       <li data-target="#myslide" data-slide-to="4" class=""></li>
+     </ul>
+      <a href="#myslide" data-slide="prev" class="carousel-control-prev">
+       <span class="carousel-control-prev-icon"></span>
+    </a>
+     <a href="#myslide" data-slide="next" class="carousel-control-next">
+       <span class="carousel-control-next-icon"></span>
+  </a>
+</div><!--	carousel slide end-->
+	<br><p style="text-align: justify;">Lush emerald green forests, deep ravines, open plateaus and cascading waterfalls welcome you into their folds. Captivated one forgets that, as with most Indian wildlife reserves, Panna too was originally a hunting reserve owned by the Maharaja of Panna. It was granted National Park status in 1981. The boundary of the 540 square kilometre park is marked by the broad and rocky River Ken which flows through the Vindhya range in Madhya Pradesh towards the Ganges, a river full of life from crocodiles that bask on its sandy banks to white -necked storks and kingfishers that fish in its waters. It’s also a park of epic and well-charted conservation struggles. Diamond and sandstone mining was gravely affecting the park and by the 1990’s it was in deep trouble. Experts turned around its fortunes by the turn of century, but by 2009 tigers were again poached to extinction. Recent relocation efforts have been remarkably successful and tiger numbers grow year on year with over 30 individual adults today, many accustomed to visitors. However leopards still abound, alongside a good population of sambar deer, nilgai and spotted deer to feed this success story. According to legends, the Pandavas of the epic Mahabharata spent a part of their exile in these forests. The Pandava Falls near the park have a beautiful lake and shrines dedicated to these gods in the surrounding cliffs. Entry gates are located at Madla and Hinauta</p>
+	<h5 style="font-family: 'Noto Serif', serif; color: red">About:</h5>
+	<p style="text-align: justify;">The area of the Pench Tiger Reserve and the surrounding area is the real story area of Rudyard Kipling's famous "The Jungle Book". The idea of Mongali is made from the pamphlet "An Account of Wolves's Nurturing Children in their Dens" by Sir William Henry Sliman. In 1831 there was a report of the arrest of a child who had grown up with wolves in village Satbavadi near Seoni. The place described in "The Jungle Book", the Vainganga River, its valley where Sher Khan was killed, the mountain ranges of village Kannivara and Sivani etc. are the actual places in the Seoni district. The forest areas of the Pench Tiger Reserve have a glorious history. Its natural beauty and richness is described in the Ioni-Akbari and many other natural history books such as R.A. Strenthal's "Sivni, Camp life in the Satpura", James Forsyth "High Lands of Central India" and A. A Dunbar Brander "Wild Animals of Central India" etc. Pench Tiger Reserve was awarded to "Best Maintain Tourist Friendly National Park" Award under the National Tourism Prize 2006-07.</p>
+	</div>
+<!----end container---->
+<div class="container">
+	<h5 style="font-family: 'Noto Serif', serif; color: red">History:</h5>
+	<p style="text-align: justify;">Pench National Park was created as a wildlife sanctuary in 1977. Soon after in 1983, its status was elevated to that of a National Park. The year 1992 brought to Pench the official identity of a Tiger Reserve.<br>
+
+The Pench Tiger Reserve covers a total area of 758 sq. km. Out of this, 292.85 sq. km of Pench National Park for the core zone of the reserve. A buffer zone comprising of Reserve Forests, revenue lands and Protected Forests sprawl in 346.73 sq. km.Pench has had a remarkable representation in narrative art. One of the medieval proto-types of a constitution, the Ain-i-Akbari, weaves a detailed description of the magnificent gift of nature that Pench has. The document was written in 16th century by Abul-Fazl ibn Mubarak. It draws upon details of Akbar’s empire and his style of administration.<br>
+
+Pench is part of the natural bounty that inspired Rudyard Kipling to compose his magnum opus ‘The Jungle Book’. The three-part documentary titled ‘Spy in the Jungle’ from BBC was filmed in Pench.
+
+</p>
+</div>
+	<!---end container---->
+	<div class="container">
+		<h3 style="font-family: 'Noto Serif', serif;">Nearby attraction Pench National Park</h3>
+		<p><span style="font-weight: 400;">On your excursion in the Pench Tiger Reserve, keep an eye out for these popular locations:</span></p>
+		<ul><li><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sitaghat</span></li><li><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alikatta</span></li><li><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chhindimatta Road</span></li><li><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bodhanala Range</span></li><li><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kalapahad</span></li></ul>
+		<p><span style="font-weight: 400;">These sites are a visual treat and dreamy locations for wildlife photographers. Sloping hills, clear transparent water flowing across rocks, bamboo forests standing close to a pond, beautiful flowering plants amidst lush greenery and herds of wild animals in their live action. You cannot be anything but captivated and charmed by the beauty of them.</span></p>
+	</div>
+	<!---end container---->
+<!-----footer start------------>
+<br><br><br><div class="bg-dark" style="background-color: #141415!important;">
+		<div class="container" style="color: white;">
+			<br><br>
+			<div class="row">
+				<div class="col-md-3">
+					<img src="img/logo.png" style="height: 130px; width: 230px;"><br><br>
+				</div>
+				<div class="col-md-3">
+					<h4 style="font-family: serif;">MADHYA PRADESH TOURISM</h4>
+					<h6><a href="temple.html" style="color: #ff9607;  text-decoration: none;">TEMPLES</a></h6>
+					<h6><a href="fort.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">FORTS</a></h6>
+					<h6><a href="Lakes.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">LAKES</a></h6>
+					<h6><a href="waterfall.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">WATERFALL</a></h6>
+					<h6><a href="river.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">RIVERS</a></h6>
+
+				</div>
+				<div class="col-md-3">
+					<a style="text-decoration: none;" href="contact_us.html"><h4 style="font-family: serif; color: white;">CONTACT WITH US</h4></a>
+					<b style="color: #ff9607;">Address:</b><span style="color: white;">&nbsp;&nbsp; 7/16 barick quater Thatipur,Gwalior</span>
+					<b style="color: #ff9607;"><br>
+					Contact no.:</b><span style="color: white;">&nbsp;&nbsp;9752148265</span>
+
+					<b style="color: #ff9607;">Website:</b><span style="color: white;">&nbsp;&nbsp;www.mptourism.com</span><br>
+
+
+
+					<br><a href="https://www.facebook.com/MPTourism/">
+					<i class="fa fa-facebook-official" style="font-size: 40px; color:#12a2e6;"></i></a>&nbsp;
+					<a href="https://www.instagram.com/mptourism/">
+					<i class="fa fa-instagram" aria-hidden="true" style="font-size: 40px; color:#d44374;"></i></a>&nbsp;
+					<a href="https://mobile.twitter.com/mptourism">
+					<i class="fa fa-twitter" aria-hidden="true" style="font-size: 40px; color:#10caf5;"></i></a>&nbsp;
+					<a href="https://youtube.com/user/mptourism">
+					<i class="fa fa-youtube-play" aria-hidden="true" style="font-size: 40px; color:red;"></i></a>&nbsp;
+					
+					
+				</div>
+				<div class="col-md-3">
+				<br><br><br><a href="feeback.html" style="text-decoration: none;"><h5 style="color:#ff9607; ">Feedback</h5></a>
+				<p class="text-light">Download the app on:</p>
+				<img src="img/38.jpg">&nbsp;&nbsp;&nbsp;
+				<img src="img/39.jpg">
+			</div>
+		</div>
+		<p>All rights reserved@2020</p>
+	</div>
+
+
+</body>
+</html>
